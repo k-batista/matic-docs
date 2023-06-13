@@ -941,6 +941,253 @@ module.exports = {
     "faq/consensys-framework",
   ],
 
+  edge: [
+    {
+      type: "category",
+      label: "Quick start",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "edge/overview",
+      ],
+    },
+    {
+      type: "category",
+      label: "Core components",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "edge/architecture/overview",
+        {
+          type: "category",
+          label: "Networking",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+          ],
+        },
+        {
+          type: "category",
+          label: "Consensus",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            "edge/consensus/poa",
+            "edge/consensus/pos-concepts",
+            "edge/consensus/pos-stake-unstake",
+            "edge/consensus/migration-to-pos",
+            "edge/consensus/bls",
+            ],
+          },
+        {
+          type: "category",
+          label: "Block production",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+          ],
+        },
+        {
+          type: "category",
+          label: "Validation",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+          ],
+        },
+        {
+          type: "category",
+          label: "Security",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+          ],
+        },
+        {
+          type: "category",
+          label: "Modules",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            "edge/architecture/modules/blockchain",
+            "edge/architecture/modules/minimal",
+            "edge/architecture/modules/networking",
+            "edge/architecture/modules/state",
+            "edge/architecture/modules/txpool",
+            "edge/architecture/modules/json-rpc",
+            "edge/architecture/modules/consensus",
+            "edge/architecture/modules/storage",
+            "edge/architecture/modules/types",
+            "edge/architecture/modules/syncer",
+            "edge/architecture/modules/sealer",
+            "edge/architecture/modules/other-modules",
+          ],
+        },
+        {
+          type: "category",
+          label: "Additional features",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            {
+              type: "category",
+              label: "Chainbridge",
+              link: {
+                type: "generated-index",
+              },
+              items: [
+                "edge/additional-features/chainbridge/overview",
+                "edge/additional-features/chainbridge/definitions",
+                "edge/additional-features/chainbridge/setup",
+                "edge/additional-features/chainbridge/setup-erc20-transfer",
+                "edge/additional-features/chainbridge/setup-erc721-transfer",
+                "edge/additional-features/chainbridge/use-case-erc20-bridge",
+                "edge/additional-features/chainbridge/use-case-erc721-bridge",
+              ],
+            },
+            "edge/additional-features/blockscout",
+            "edge/additional-features/permission-contract-deployment",
+            "edge/additional-features/predeployment",
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Operate a node",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "edge/get-started/installation",
+        "edge/get-started/set-up-ibft-locally",
+        "edge/get-started/set-up-ibft-on-the-cloud",
+        "edge/get-started/cli-commands",
+        "edge/get-started/terraform-aws-deployment",
+        "edge/get-started/gcp-marketplace-deployment",
+        {
+          type: "category",
+          label: "Configuration",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            "edge/configuration/sample-config",
+            "edge/configuration/manage-private-keys",
+            "edge/configuration/prometheus-metrics",
+            {
+              type: "category",
+              label: "Secret Managers",
+              link: {
+                type: "generated-index",
+              },
+              items: [
+                "edge/configuration/secret-managers/set-up-aws-ssm",
+                "edge/configuration/secret-managers/set-up-gcp-secrets-manager",
+                "edge/configuration/secret-managers/set-up-hashicorp-vault",
+              ],
+            },
+          ],
+        },
+        {
+          type: "category",
+          label: "Work with a node",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            "edge/working-with-node/query-json-rpc",
+            "edge/working-with-node/query-operator-info",
+            "edge/working-with-node/backup-restore",
+          ],
+        },
+        {
+          type: "category",
+          label: "Run a validator",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            "edge/validator-hosting",
+          ],
+        },
+        {
+          type: "category",
+          label: "Performance Reports",
+          link: {
+            type: "generated-index",
+          },
+          items: [
+            "edge/performance-reports/overview",
+            {
+              type: "category",
+              label: "Test History",
+              link: {
+                type: "generated-index",
+              },
+              items: [
+                "edge/performance-reports/test-history/test-2022-07-04",
+                "edge/performance-reports/test-history/test-2022-03-23",
+                "edge/performance-reports/test-history/test-2022-03-02",
+                "edge/performance-reports/test-history/test-2022-01-21",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "JSON RPC Commands",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "edge/api/json-rpc-eth",
+        "edge/api/json-rpc-net",
+        "edge/api/json-rpc-web3",
+        "edge/api/json-rpc-txpool",
+        "edge/api/json-rpc-debug",
+      ],
+    },
+    {
+      type: "category",
+      label: "FAQs",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "edge/troubleshooting",
+        "edge/faq/validators",
+        "edge/faq/gas",
+        "edge/faq/contracts",
+        "edge/faq/tokens",
+      ],
+    },
+    {
+      type: "category",
+      label: "Community",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "edge/community/propose-new-feature",
+        "edge/community/report-bug",
+      ],
+    },
+  ],
+
+  
+
   // #####################################################################
 
   /* Polygon ID docs here: https://0xpolygonid.github.io/tutorials/
