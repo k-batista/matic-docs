@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmatic_docs=self.webpackChunkmatic_docs||[]).push([[75082],{74433:function(t){t.exports=JSON.parse('{"title":"Quick start","slug":"/category/quick-start","permalink":"/matic-docs/docs/category/quick-start","navigation":{"next":{"title":"What is Edge","permalink":"/matic-docs/docs/edge/overview"}}}')}}]);
