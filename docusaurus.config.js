@@ -4,8 +4,8 @@ const katex = require('rehype-katex');
 module.exports = {
   title: "Polygon Wiki",
   tagline: "The official documentation for all Polygon products.",
-  url: "https://wiki.polygon.technology",
-  baseUrl: "/",
+  url: "https://k-batista.github.io",
+  baseUrl: "/matic-docs/",
   favicon: "img/logo-round-purple.png",
   organizationName: "Polygon Labs",
   projectName: "matic-docs",
