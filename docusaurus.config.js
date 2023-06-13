@@ -424,7 +424,7 @@ module.exports = {
               rel: null,
             },
             {
-              href: '/docs/edge',
+              href: '/docs/edge/overview',
               label: 'Polygon Edge',
               target: '_self',
               rel: null,
