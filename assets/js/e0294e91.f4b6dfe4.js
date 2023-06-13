@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmatic_docs=self.webpackChunkmatic_docs||[]).push([[26177],{32139:function(t){t.exports=JSON.parse('{"title":"Become a Contributor","slug":"/category/become-a-contributor","permalink":"/matic-docs/docs/category/become-a-contributor","navigation":{"next":{"title":"Contributor guidelines","permalink":"/matic-docs/docs/contribute/orientation"}}}')}}]);
